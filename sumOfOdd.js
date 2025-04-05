@@ -17,12 +17,12 @@ Display sum of all the even numbers from 206 to 311.
  */
 
 /*programming hero*/
-let i=81;
+let i;
 let sum = 0;
-while(i<=131){
+for(i = 81;i<=131;i++){
     if(i%2==1){
         sum = sum + i;
     }
-    i++;
+    
 }
 console.log(sum);
